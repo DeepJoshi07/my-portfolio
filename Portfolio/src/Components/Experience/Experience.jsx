@@ -6,11 +6,13 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
+import { IoLogoNodejs } from "react-icons/io5";
 // import { RiNetflixFill } from "react-icons/ri";
 // import { FaAmazon } from "react-icons/fa";
 import { SiPrisma } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
+import { SiDocker } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -46,6 +48,12 @@ const Experience = () => {
           </span>
            <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaGithub  color="#ffffff" size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <IoLogoNodejs color="#85bf08" size={50}/>
+          </span>
+           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <SiDocker color="#0774b8" size={50} />
           </span>
         </div>
        {/* <div>
